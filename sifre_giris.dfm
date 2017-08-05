@@ -1,0 +1,80 @@
+object sifregiris: Tsifregiris
+  Left = 511
+  Top = 228
+  Width = 367
+  Height = 333
+  Caption = 'sifregiris'
+  Color = clGradientActiveCaption
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 128
+    Top = 64
+    Width = 102
+    Height = 13
+    Caption = 'G'#220'NL'#220'K SAH'#304'B'#304'N'#304'N'
+  end
+  object Label2: TLabel
+    Left = 72
+    Top = 120
+    Width = 82
+    Height = 13
+    Caption = 'KULLANICI ADI='
+  end
+  object Label3: TLabel
+    Left = 104
+    Top = 152
+    Width = 47
+    Height = 13
+    Caption = #350#304'FRES'#304'='
+  end
+  object Edit1: TEdit
+    Left = 160
+    Top = 112
+    Width = 121
+    Height = 21
+    TabOrder = 0
+  end
+  object Edit2: TEdit
+    Left = 160
+    Top = 144
+    Width = 121
+    Height = 21
+    PasswordChar = '*'
+    TabOrder = 1
+  end
+  object Button1: TButton
+    Left = 208
+    Top = 176
+    Width = 75
+    Height = 25
+    Caption = 'G'#304'R'#304#350
+    TabOrder = 2
+    OnClick = Button1Click
+  end
+  object ADOQuery1: TADOQuery
+    Active = True
+    ConnectionString = 
+      'Provider=Microsoft.Jet.OLEDB.4.0;Data Source=gunluk.mdb;Persist ' +
+      'Security Info=False'
+    CursorType = ctStatic
+    Parameters = <>
+    SQL.Strings = (
+      'select * from gunluksifre')
+    Left = 24
+    object ADOQuery1gunluksahibi: TWideStringField
+      FieldName = 'gunluksahibi'
+      Size = 50
+    end
+    object ADOQuery1sifresi: TWideStringField
+      FieldName = 'sifresi'
+      Size = 50
+    end
+  end
+end

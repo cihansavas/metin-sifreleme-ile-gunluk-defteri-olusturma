@@ -1,0 +1,39 @@
+					ÞÝFRELÝ GÜNLÜK PROJESÝ.....
+					-----------------------------------
+PROGRAMIN KULLANICI ADÝ:inci
+PROGRAMIN KULLANICI ÞÝFRESÝ:065403031
+EK OLARAK KULLANICI ADI:admin
+EK OLARAK KULLANICI ÞÝFRESÝ:admin
+
+
+
+
+#ÖÐRENCÝ BÝLGÝLERÝ
+------------------
+ADI=ÝNCÝ
+SOYADI=ARPACÝ
+SINIFI=2/A N.Ö
+NUMARASI=065403031
+BOLUMU=BÝLGÝSAYAR TEKNOLOJÝSÝ VE PROGRAMLAMA
+
+
+//----------------------------------------------------------------------------------------------------------//
+
+#PROJE AMACI=
+-------------	
+	GÜVENÝLÝR GÜNLÜK OLUÞTURMAK ÝÇÝN GÜNLÜÐÜ ÞÝFRELEMEK 
+
+//----------------------------------------------------------------------------------------------------------//
+
+
+
+#YARARLANILAN KAYNAKLAR
+--------------------------
+ALGORÝTMASI KENDÝME AÝT
+
+
+//-----------------------------------------------------------------------------------------------------------//
+NOT=DOSYANIN ÝÇERÝSÝNDE BULUNAN TÜM GÜNLÜKLER TXT UZANTILI  NOT DEFTERLERÝNDE 
+TUTULMAKTADIR VE BU NOT DEFTERÝNÝN ÝÇERÝÐÝNDEDE GÜNLÜKLERÝN ÞÝFRELENMÝÞ HALLERÝ MEVCUTTUR..
+
+
